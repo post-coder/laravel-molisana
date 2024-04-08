@@ -1,1 +1,35 @@
+@use './partials/variables' as *;
+
 @import "~bootstrap/scss/bootstrap";
+
+@import './partials/header';
+
+
+main {
+    padding: 24px 0;
+
+    background-image: url('../img/fondo-pag-speciali.jpg');
+
+    h2 {
+        color: $primary-dark;
+        text-transform: uppercase;
+    }
+}
+
+#pasta-list {
+    
+    .pasta {
+
+        .pasta-img {
+            width: 100%;
+        }
+
+        .pasta-title {
+            color: gray;
+
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}
