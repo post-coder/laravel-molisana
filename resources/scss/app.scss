@@ -16,20 +16,53 @@ main {
     }
 }
 
+.pasta-type {
+    margin-bottom: 16px;
+}
 #pasta-list {
+    display: flex;
+    flex-flow: wrap;
+    gap: 6px;
     
+
     .pasta {
+
+        width: calc(100% / 3 - 6px / 3 * 2);
+
+        background-color: white;
+        padding: 16px;
+
+        text-decoration: none;
 
         .pasta-img {
             width: 100%;
         }
 
         .pasta-title {
-            color: gray;
+            color: gray!important;
 
             font-size: 14px;
             text-transform: uppercase;
             text-align: center;
         }
     }
+}
+
+
+
+#single-product {
+
+    header {
+        text-align: center;
+
+        img {
+            width: 300px;
+        }
+    }
+
+    p {
+        color: $primary-dark;
+    }
+
+
 }

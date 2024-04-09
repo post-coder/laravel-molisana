@@ -21,6 +21,11 @@ header {
             &.active {
                 background-color: $primary;
             }
+
+            a {
+                text-decoration: none;
+                color: black!important;
+            }
         }
     }
 }

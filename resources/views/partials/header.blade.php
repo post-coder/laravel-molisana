@@ -3,8 +3,8 @@
 
     <nav>
         <ul>
-            <li>Home</li>
-            <li class="active">Prodotti</li>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li class="active"><a href="{{route('home')}}">Prodotti</a></li>
             <li>News</li>
         </ul>
     </nav>
