@@ -8,7 +8,8 @@
 
     @vite('resources/js/app.js')
 </head>
-<body>
+<body> 
+    
     {{-- navbar in header --}}
     @include('partials/header')
 
