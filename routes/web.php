@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
 
     // con la funzione config() stiamo importando un elemento dai file presenti nella cartella config/
