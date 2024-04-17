@@ -9,7 +9,7 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-
+    {{-- navbar in header --}}
     @include('partials/header')
 
     @yield('content')
