@@ -1,7 +1,7 @@
 <header>
 
     <img class="logo" src="{{ Vite::asset('resources/img/marchio-sito-test.png') }}" alt="Logo la molisana">
-
+    {{-- perfetto --}}
     {{-- navbar --}}
     <nav class="nav navbar-dark ">
         <ul>
